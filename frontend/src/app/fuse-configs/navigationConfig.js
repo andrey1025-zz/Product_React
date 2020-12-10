@@ -29,7 +29,7 @@ const navigationConfig = [
 		children: [
 			{
 				id: 'e-commerce-products',
-				title: 'Products',
+				title: 'Industries',
 				type: 'item',
 				url: '/apps/e-commerce/products',
 				exact: true
