@@ -16,8 +16,8 @@ const navigationConfig = [
 		title: 'My Offers',
 		translate: 'MY_OFFERS',
 		type: 'item',
-		icon: 'folder',
-		url: '/apps/my_offers'
+		icon: 'loyalty',
+		url: '/offers'
 	},
 	{
 		id: 'System',
@@ -25,90 +25,89 @@ const navigationConfig = [
 		translate: 'SYSTEM',
 		type: 'collapse',
 		icon: 'list_alt',
-		url: '/apps/e-commerce',
 		children: [
 			{
-				id: 'e-commerce-products',
+				id: 'industries',
 				title: 'Industries',
 				type: 'item',
-				url: '/apps/e-commerce/products',
+				url: '/system/industries',
 				exact: true
 			},
 			{
 				id: 'families',
 				title: 'Families',
 				type: 'item',
-				url: '/apps/system/families',
+				url: '/system/families',
 				exact: true
 			},
 			{
 				id: 'makes',
 				title: 'Makes',
 				type: 'item',
-				url: '/apps/system/makes',
+				url: '/system/makes',
 				exact: true
 			},
 			{
 				id: 'models',
 				title: 'Models',
 				type: 'item',
-				url: '/apps/system/models',
+				url: '/system/models',
 				exact: true
 			},
 			{
 				id: 'unit_types',
 				title: 'Unit Types',
 				type: 'item',
-				url: '/apps/system/unit_types',
+				url: '/system/unit_types',
 				exact: true
 			},
 			{
 				id: 'units_of_measurement',
 				title: 'Units of Measurement',
 				type: 'item',
-				url: '/apps/system/units_of_measurement',
+				url: '/system/units_of_measurement',
 				exact: true
 			},
 			{
 				id: 'parent_values',
 				title: 'Parent Values',
 				type: 'item',
-				url: '/apps/system/parent_values',
+				url: '/system/parent_values',
 				exact: true
 			},
 			{
 				id: 'child_values',
 				title: 'Child Values',
 				type: 'item',
-				url: '/apps/system/child_values',
+				url: '/system/child_values',
 				exact: true
 			},
 			{
 				id: 'datafield_groups',
 				title: 'Datafield Groups',
 				type: 'item',
-				url: '/apps/system/datafield_groups',
+				url: '/system/datafield_groups',
 				exact: true
 			},
 			{
 				id: 'datafields',
 				title: 'Datafields',
 				type: 'item',
-				url: '/apps/system/datafields',
+				url: '/system/datafields',
 				exact: true
 			},
 			{
 				id: 'categories',
 				title: 'Categories',
 				type: 'item',
-				url: '/apps/system/categories',
+				url: '/system/categories',
 				exact: true
 			},
 			{
 				id: 'users',
 				title: 'Users',
 				type: 'item',
-				url: '/apps/system/users',
+				url: '/system/users',
 				exact: true
 			}
 		]

@@ -4,7 +4,7 @@
 // import ContactsAppConfig from './contacts/ContactsAppConfig';
 // import AnalyticsDashboardAppConfig from './dashboards/analytics/AnalyticsDashboardAppConfig';
 // import ProjectDashboardAppConfig from './dashboards/project/ProjectDashboardAppConfig';
-import ECommerceAppConfig from './e-commerce/ECommerceAppConfig';
+import ProductAppConfig from './product/ProductAppConfig';
 // import FileManagerAppConfig from './file-manager/FileManagerAppConfig';
 // import MailAppConfig from './mail/MailAppConfig';
 // import NotesAppConfig from './notes/NotesAppConfig';
@@ -20,7 +20,7 @@ const appsConfigs = [
 	// ContactsAppConfig,
 	// CalendarAppConfig,
 	// ChatAppConfig,
-	ECommerceAppConfig,
+	ProductAppConfig,
 	// ScrumboardAppConfig,
 	// AcademyAppConfig,
 	// NotesAppConfig
