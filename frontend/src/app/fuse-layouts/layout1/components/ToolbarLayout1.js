@@ -2,6 +2,7 @@ import FuseSearch from '@fuse/core/FuseSearch';
 import FuseShortcuts from '@fuse/core/FuseShortcuts';
 import AppBar from '@material-ui/core/AppBar';
 import Hidden from '@material-ui/core/Hidden';
+import Typography from '@material-ui/core/Typography';
 import { makeStyles, ThemeProvider } from '@material-ui/core/styles';
 import Toolbar from '@material-ui/core/Toolbar';
 import ChatPanelToggleButton from 'app/fuse-layouts/shared-components/chatPanel/ChatPanelToggleButton';
@@ -14,6 +15,7 @@ import { useSelector } from 'react-redux';
 import { selectToolbarTheme } from 'app/store/fuse/settingsSlice';
 import FullScreenToggle from '../../shared-components/FullScreenToggle';
 import LanguageSwitcher from '../../shared-components/LanguageSwitcher';
+import logo_img from '../../../imgs/logo.png'
 
 const useStyles = makeStyles(theme => ({
 	root: {}
@@ -42,9 +44,9 @@ function ToolbarLayout1(props) {
 					)}
 
 					<div className="flex flex-1">
-						<Hidden mdDown>
-							<FuseShortcuts className="px-16" />
-						</Hidden>
+						<Typography variant="h5" style={{fontWeight:'bold', color:"#182b3c"}}>
+							<img src={logo_img} alt="logo" style={{float:"left", width:"50px", margin:"0px 15px 0px 5px"}}></img>
+							<span style={{verticalAlign:"middle", lineHeight:"45px", fontSize:"30px", fontFamily:"monospace"}}>PRODUCT MANGEMENT</span></Typography>
 					</div>
 
 					<div className="flex items-center px-8">
